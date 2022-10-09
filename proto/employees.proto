@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package protobuff;
+
+//This will be the name of the package in the generated proto go file. And in Go, package name cannot have '-'. So we alias the name to protobuff_go
+option go_package = "github.com/okpalaChidiebere/protobuff-go;protobuff_go";
+
+message Employee {
+    int32 Id = 1;
+    string Name = 2;
+    float Salary = 3;
+}
+
+message Employees {
+    repeated Employee employees = 1;
+}
