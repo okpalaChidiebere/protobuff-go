@@ -5,7 +5,7 @@ In another Project i will learn about gRPC which used protoBuffers
 
 ## Cons of Protocol Buffers
 
-- Protocol Buffers are mainly useful when you want so send data between micro services. Whether your your microservices written in various programming languages or not they can share thesame Data structure. With Protocol buffers you MUST define the structure of your payload or schema in advance which can then be encoded or decoded using the protobufers; it is not like JSON where the schema can be flexible
+- Protocol Buffers are mainly useful when you want so send data between micro services. Whether your microservices were written in various programming languages or not, they can share thesame Data structure. With Protocol buffers you MUST define the structure of your payload or schema in advance which can then be encoded or decoded using the protobufers; it is not like JSON where the schema can be flexible
 
 ## Pros of Protocol Buffers
 
