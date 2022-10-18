@@ -17,7 +17,7 @@ In another Project i will learn about gRPC which used protoBuffers
 
 - We need this compilers to generate a class or interface in any language from our proto so that we can encode or decode data in the backend
 
-## WorkSpace set up to use use Proto
+## WorkSpace set up to use Proto
 
 - Make sure that you have the protoc compiler available your system. I confirm that by running `protoc --version` in terminal.
 - On my mac, i used homebrew to install the instal the compiler following the instructions [here](https://grpc.io/docs/protoc-installation/)
